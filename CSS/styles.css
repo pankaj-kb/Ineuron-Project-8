@@ -44,6 +44,13 @@ nav {
 
 }
 
+#mainNavItem-firstNav {
+    padding-bottom: 10px;
+    border-bottom: 5px solid #0C8BFD;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 .loginButton {
     background-color: #0C8BFD;
     color: #ffffff;
