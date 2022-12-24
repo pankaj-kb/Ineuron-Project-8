@@ -8,6 +8,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* navbar */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -61,4 +63,93 @@ nav {
     font-weight: 500;
     right: 100px;
     cursor: pointer;
+}
+
+/* Hero Section */
+
+.heroSection {
+    background-color: #111010;
+    height: 800px;
+    display: flex;
+}
+
+.leftHero {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    left: 100px;
+    top: 100px;
+}
+
+.heroHeading {
+    color: #ffffff;
+    font-size: 80px;
+    text-align: left;
+    width: 650px;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.blueSpan {
+    color: #0C8BFD;
+    font-style: italic
+}
+
+.heroSubHeading {
+    color: #9A9999;
+    font-size: 22px;
+    font-weight: 400;
+    width: 550px;
+    position: relative;
+    top: 25px;
+    line-height: 40px;
+    text-align: start;
+}
+
+.heroButtons {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    top: 80px;
+}
+
+.blueButton {
+    background-color: #0C8BFD;
+    color: #ffffff;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #111010;
+}
+
+.blueButton:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+
+.darkButton {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 18px 30px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.darkButton:hover{
+    background-color: #0C8BFD;
+}
+
+
+.heroImage {
+    position: relative;
+    right: -500px;
+    top: 100px;
+    height: 600px;
 }
