@@ -32,6 +32,16 @@ nav {
     position: relative;
     gap: 35px;
     cursor: pointer;
+    top: 10px;
+}
+
+#mainNavItem:hover {
+    /* text-decoration: underline #0C8BFD; */
+    padding-bottom: 10px;
+    border-bottom: 5px solid #0C8BFD;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
 }
 
 .loginButton {
