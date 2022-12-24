@@ -10,21 +10,38 @@
 
 nav {
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    justify-content: space-between;
+    align-items: center;
     background-color: #111010;
+    height: 100px;
 }
 
 .logo {
     height: 60px;
     position: relative;
-    left: 50px;  
+    left: 100px;
+    cursor: pointer;
 }
 
 .mainNav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     color: #9A9999;
-    font-weight: 400;
+    font-weight: 500;
+    position: relative;
+    gap: 35px;
+    cursor: pointer;
+}
+
+.loginButton {
+    background-color: #0C8BFD;
+    color: #ffffff;
+    position: relative;
+    padding: 15px 40px;
+    border-radius: 23px;
+    font-size: 18px;
+    font-weight: 500;
+    right: 100px;
+    cursor: pointer;
 }
