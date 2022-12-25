@@ -163,3 +163,26 @@ main {
     top: 200px;
     height: 600px;
 }
+
+/* logobar */
+
+.logoBar {
+    display: flex;
+    height: 180px;
+    background-color: #1D1C1C;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoBarImg {
+    height: 80px;
+    position: relative;
+    transition: height 0.5s, transform 0.5s;
+}
+
+.logoBarImg:hover {
+    height: 80px;
+    transform: scale(1.2);
+}
+
+/* services */
