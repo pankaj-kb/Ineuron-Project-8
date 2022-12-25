@@ -52,7 +52,7 @@ main {
     border-bottom: 5px solid #0C8BFD;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-
+    color: #ffffff;
 }
 
 #mainNavItem-firstNav {
@@ -60,6 +60,7 @@ main {
     border-bottom: 5px solid #0C8BFD;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    color: #ffffff;
 }
 
 .loginButton {
@@ -157,8 +158,8 @@ main {
 
 
 .heroImage {
-    position: relative;
-    right: -500px;
-    top: 100px;
+    position: absolute;
+    right: 120px;
+    top: 200px;
     height: 600px;
 }
