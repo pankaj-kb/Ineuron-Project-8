@@ -295,30 +295,51 @@ main {
 .services2BoxLeft {
     display: flex;
     flex-direction:column;
+    gap: 30px;
 }
 
-.s2leftServices {
+.s2-leftServices {
     display: flex;
+    border: 1px solid #9A9999;
+    border-radius: 60px;
+    padding: 35px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#firstInLeftSection2 {
+    background-color: #0C8BFD;
 }
 
 .s2leftServicesHeading {
-
+    font-size: 30px;
+    font-weight: 500;
 }
+
 
 .s2leftServicesImg {
-
+    position: relative;
+    left: 40px;
 }
 
-.services2BoxRight {
+/* RIght Side */
 
+
+.services2BoxRight {
+    display: flex;
+    flex-direction: column;
 }
 
 .s2-rightServices {
-
+    display: flex;
+    /* flex-direction: row; */
 }
 
 .s2rightServiesButton {
-
+    padding: 10px;
+    border: none;
+    border-radius: 100%;
+    color: #9A9999;
 }
 
 .s2rightServicesHeading {
