@@ -20,11 +20,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #111010;
-    height: 100px;
+    height: 80px;
 }
 
 main {
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 
 .logo {
@@ -272,11 +272,13 @@ main {
 /* Feature Section 2 */
 
 .services-2 {
-    height: 1000px;
+    height: 1100px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 80px;
+    /* justify-content: space-evenly; */
 }
 
 .services-2-Heading {
@@ -286,10 +288,16 @@ main {
     width: 1000px;
     position: relative;
     left: -150px;
+    top: 100px;
 }
 
 .serviceBoxes {
     display: flex;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+    left: -40px;
+    top: 100px;
 }
 
 .services2BoxLeft {
@@ -302,9 +310,15 @@ main {
     display: flex;
     border: 1px solid #9A9999;
     border-radius: 60px;
-    padding: 35px 80px;
+    padding: 30px 60px;
     justify-content: space-between;
     align-items: center;
+}
+
+.s2-leftServices:hover {
+    background-color: #0C8BFD;
+    cursor: pointer;
+
 }
 
 #firstInLeftSection2 {
@@ -328,20 +342,48 @@ main {
 .services2BoxRight {
     display: flex;
     flex-direction: column;
+    border: 1px solid #111010;
+    background-color: #111010;
+    gap: 10px;
+    border-radius: 40px;
+    /* width: 600px; */
+    position: relative;
+    /* top: -20px; */
+    justify-content: center;
+    padding: 20px 20px;
 }
 
 .s2-rightServices {
     display: flex;
+    gap: 15px;
+    background-color: #292828;
     /* flex-direction: row; */
+    padding: 20px 80px;
+    border-radius: 50px;
+    justify-content: baseline;
+    align-items: center;
+    cursor: pointer;
+}
+
+.s2-rightServices:hover {
+    color: #ffffff;
 }
 
 .s2rightServiesButton {
     padding: 10px;
     border: none;
     border-radius: 100%;
-    color: #9A9999;
+    color: #D9D9D9;
+    /* align-self: baseline; */
+    position: relative;
+    left: -40px;
 }
 
 .s2rightServicesHeading {
-
+    font-size: 20px;
+    color: #D9D9D9;
+    font-weight: 400;
+    /* align-self: baseline; */
+    position: relative;
+    left: -40px;
 }
