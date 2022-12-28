@@ -387,3 +387,11 @@ main {
     position: relative;
     left: -40px;
 }
+
+/* Pricing Section */
+
+.pricingSection {
+    background-color: #111010;
+    display: flex;
+    /* flex-direction: row; */
+}
