@@ -687,3 +687,13 @@ main {
 .slideButtons button:first-child {
     background-color: #0C8BFD;
 }
+
+/* Sign Up Section */ 
+
+.signUpSection {
+    background-color: #111010;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
