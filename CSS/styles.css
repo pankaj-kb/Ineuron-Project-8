@@ -774,3 +774,20 @@ main {
 .text15 {
     grid-column-end: 5;
 }
+
+.extraSpacing {
+    height: 100px;
+    /* background-color: #000611; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signature {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    /* display: none; */
+    /* visibility: hidden; */
+}
